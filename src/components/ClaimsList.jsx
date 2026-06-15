@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getClaims } from '../services/firebaseConfig'; // again, you'll create this next
+import { getClaims } from '../services/firebaseConfig';
 
 const ClaimsList = () => {
   const [claims, setClaims] = useState([]);
@@ -51,8 +51,3 @@ const ClaimsList = () => {
 };
 
 export default ClaimsList;
-// This component fetches and displays the list of claims from Firebase.
-// It uses the `useEffect` hook to fetch data when the component mounts.
-// The claims are displayed in a card format using Bootstrap classes.
-// The component also handles the case when no claims are available by displaying a message.
-// The `getClaims` function fetches the claims from Firebase and returns them as an array.

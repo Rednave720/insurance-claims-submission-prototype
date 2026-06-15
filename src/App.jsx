@@ -7,7 +7,7 @@ function App() {
     <Router>
       <div className="d-flex flex-column min-vh-100 bg-light" style={{ width: '100%' }}>
       <header className="text-center p-4 bg-white shadow-sm mb-4 rounded">
-          <h1>Insurance Claims App</h1>
+          <h1>Insurance Claims Submission Prototype</h1>
           <p>Submit and view insurance claims easily.</p>
           <nav className="d-flex justify-content-center gap-2 mt-3">
             <Link to="/" className="btn btn-primary">Submit Claim</Link>

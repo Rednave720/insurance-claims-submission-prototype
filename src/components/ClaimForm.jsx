@@ -1,6 +1,6 @@
 import { toast } from 'react-hot-toast';
 import React, { useState } from 'react';
-import { saveClaim } from '../services/firebaseConfig'; // you'll create this next
+import { saveClaim } from '../services/firebaseConfig';
 
 const ClaimForm = () => {
   const [formData, setFormData] = useState({
@@ -62,12 +62,3 @@ const ClaimForm = () => {
 };
 
 export default ClaimForm;
-// This component is a form for submitting insurance claims. It uses React's useState hook to manage form data.
-// The form includes fields for name, email, policy number, and a description of the claim.
-// When the form is submitted, it calls the saveClaim function to save the data to Firebase.
-// The form also includes basic validation to ensure all fields are filled out before submission.
-// The form is styled using Bootstrap classes for a clean and responsive design.
-// The form is wrapped in a Bootstrap container for proper spacing and alignment.
-// The form includes a submit button that triggers the handleSubmit function when clicked.
-// The handleChange function updates the form data state as the user types in the input fields.
-// The form is designed to be user-friendly and provides feedback upon successful submission.
